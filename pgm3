@@ -1,0 +1,9 @@
+inpstr = input("Input: ")
+
+inpstr = inpstr.casefold()
+revstr = reversed(inpstr)
+
+if list(inpstr) == list(revstr):
+    print("True")
+else:
+    print("False")
