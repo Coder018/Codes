@@ -1,6 +1,6 @@
 inpstr = input("Input: ")
 
-inpstr = inpstr.casefold()
+inpstr = inpstr.casefold() 
 revstr = reversed(inpstr)
 
 if list(inpstr) == list(revstr):
